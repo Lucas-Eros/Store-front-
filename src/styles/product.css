@@ -33,14 +33,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Adicione mais estilos conforme necessário */
-
-/* Exemplo de classe reutilizável para espaçamento vertical */
 .my-vertical-spacing {
   margin: 10px 0;
 }
 
-/* Estilos para o formulário de produtos */
 .productForm {
   display: flex;
   flex-direction: column;
@@ -51,7 +47,6 @@ a:hover {
   margin-bottom: 10px;
 }
 
-/* Estilos para a lista de compras */
 .shoppingList {
   list-style: none;
   padding: 0;
