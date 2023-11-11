@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --text-color: #333;
+  --background-color: #f2f2f2;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Adicione mais estilos conforme necessário */
+
+/* Exemplo de classe reutilizável para espaçamento vertical */
+.my-vertical-spacing {
+  margin: 10px 0;
+}
+
+/* Estilos para o formulário de produtos */
+.productForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.inputField {
+  margin-bottom: 10px;
+}
+
+/* Estilos para a lista de compras */
+.shoppingList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.shoppingListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.productName {
+  font-weight: bold;
+}
+
+.productPrice {
+  color: green;
+}
+
+.deleteButton {
+  background-color: #ff6961;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
