@@ -1,4 +1,3 @@
-// controllers/ProductController.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; // Certifique-se de importar o Axios
 import ProductForm from '../components/ProductForm';
